@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class InterviewHibernateApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(InterviewHibernateApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(StudentApp.class, args);
+    }
 }
